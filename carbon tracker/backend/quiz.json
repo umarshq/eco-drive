@@ -1,0 +1,249 @@
+{
+    "ecodriving_quiz": {
+      "total_questions": 20,
+      "total_points": 100,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What percentage of fuel can eco-driving save according to UK research?",
+          "points": 5,
+          "options": {
+            "a": "2-5%",
+            "b": "5-17%",
+            "c": "20-25%",
+            "d": "30-40%"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What is the recommended RPM for eco-driving in petrol vehicles?",
+          "points": 5,
+          "options": {
+            "a": "1,500",
+            "b": "2,000",
+            "c": "2,500",
+            "d": "3,000"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "id": 3,
+          "question": "What should you do when starting the engine for eco-driving?",
+          "points": 5,
+          "options": {
+            "a": "Let it idle to warm up",
+            "b": "Rev the engine several times",
+            "c": "Drive off gently immediately",
+            "d": "Wait for 5 minutes"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "id": 4,
+          "question": "Which vehicle type produces the least exhaust emissions?",
+          "points": 5,
+          "options": {
+            "a": "Diesel",
+            "b": "Hybrid",
+            "c": "Electric",
+            "d": "Biodiesel"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "id": 5,
+          "question": "What should you remove from your vehicle to reduce drag?",
+          "points": 5,
+          "options": {
+            "a": "Roof racks when not in use",
+            "b": "Side mirrors",
+            "c": "Radio antenna",
+            "d": "License plate"
+          },
+          "correct_answer": "a"
+        },
+        {
+          "id": 6,
+          "question": "What is the most efficient driving style for fuel consumption?",
+          "points": 5,
+          "options": {
+            "a": "Rapid acceleration",
+            "b": "Smooth and steady",
+            "c": "Frequent braking",
+            "d": "High speed cruising"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "id": 7,
+          "question": "When should you use air conditioning for optimal eco-driving?",
+          "points": 5,
+          "options": {
+            "a": "All the time",
+            "b": "Never",
+            "c": "Sparingly",
+            "d": "Only at high speeds"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "id": 8,
+          "question": "What percentage of biodiesel is mandated in UK diesel fuel?",
+          "points": 5,
+          "options": {
+            "a": "2%",
+            "b": "5%",
+            "c": "10%",
+            "d": "15%"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "id": 9,
+          "question": "How can you best maintain momentum while eco-driving?",
+          "points": 5,
+          "options": {
+            "a": "Look far ahead and anticipate",
+            "b": "Accelerate quickly",
+            "c": "Brake frequently",
+            "d": "Change lanes often"
+          },
+          "correct_answer": "a"
+        },
+        {
+          "id": 10,
+          "question": "What is the recommended RPM for eco-driving in diesel vehicles?",
+          "points": 5,
+          "options": {
+            "a": "1,500",
+            "b": "2,000",
+            "c": "2,500",
+            "d": "3,000"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "id": 11,
+          "question": "Which environmental label grade indicates the cleanest car?",
+          "points": 5,
+          "options": {
+            "a": "Grade A",
+            "b": "Grade B",
+            "c": "Grade C",
+            "d": "Grade D"
+          },
+          "correct_answer": "a"
+        },
+        {
+          "id": 12,
+          "question": "What should you do with unnecessary items in your car?",
+          "points": 5,
+          "options": {
+            "a": "Keep them in the trunk",
+            "b": "Remove them to reduce weight",
+            "c": "Distribute them evenly",
+            "d": "Move them to the back seat"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "id": 13,
+          "question": "How can you best reduce fuel consumption on short journeys?",
+          "points": 5,
+          "options": {
+            "a": "Drive faster",
+            "b": "Use air conditioning",
+            "c": "Combine multiple trips",
+            "d": "Idle the engine longer"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "id": 14,
+          "question": "What should you do in traffic jams for eco-driving?",
+          "points": 5,
+          "options": {
+            "a": "Keep engine running",
+            "b": "Rev the engine",
+            "c": "Turn off engine if stationary",
+            "d": "Change gears frequently"
+          },
+          "correct_answer": "c"
+        },
+        {
+          "id": 15,
+          "question": "Which type of vehicle typically has better fuel efficiency?",
+          "points": 5,
+          "options": {
+            "a": "Petrol",
+            "b": "Diesel",
+            "c": "Sports car",
+            "d": "SUV"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "id": 16,
+          "question": "What is the main benefit of hybrid vehicles?",
+          "points": 5,
+          "options": {
+            "a": "Higher speed",
+            "b": "Lower emissions",
+            "c": "Better acceleration",
+            "d": "Cheaper maintenance"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "id": 17,
+          "question": "How often should you check tire pressure for eco-driving?",
+          "points": 5,
+          "options": {
+            "a": "Monthly",
+            "b": "Yearly",
+            "c": "Weekly",
+            "d": "Daily"
+          },
+          "correct_answer": "a"
+        },
+        {
+          "id": 18,
+          "question": "What driving behavior most affects fuel consumption?",
+          "points": 5,
+          "options": {
+            "a": "Route choice",
+            "b": "Acceleration patterns",
+            "c": "Radio usage",
+            "d": "Window position"
+          },
+          "correct_answer": "b"
+        },
+        {
+          "id": 19,
+          "question": "Which feature helps reduce fuel consumption in modern cars?",
+          "points": 5,
+          "options": {
+            "a": "Start-stop system",
+            "b": "Leather seats",
+            "c": "Tinted windows",
+            "d": "Alloy wheels"
+          },
+          "correct_answer": "a"
+        },
+        {
+          "id": 20,
+          "question": "What is the best gear selection strategy for eco-driving?",
+          "points": 5,
+          "options": {
+            "a": "Stay in low gears",
+            "b": "Change gears frequently",
+            "c": "Use highest suitable gear",
+            "d": "Skip gears while shifting"
+          },
+          "correct_answer": "c"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,52 @@
+[
+    {
+      "title": "Use Public Transport",
+      "description": "Reduce your carbon footprint by using public transport instead of driving alone.",
+      "potentialReduction": 20
+    },
+    {
+      "title": "Switch to LED Bulbs",
+      "description": "LED bulbs consume less energy and last longer than traditional bulbs.",
+      "potentialReduction": 5
+    },
+    {
+      "title": "Compost Organic Waste",
+      "description": "Turn food scraps into natural fertilizer to reduce landfill waste.",
+      "potentialReduction": 15
+    },
+    {
+      "title": "Take Shorter Showers",
+      "description": "Save water by limiting your shower time to under 5 minutes.",
+      "potentialReduction": 10
+    },
+    {
+      "title": "Use Reusable Bags",
+      "description": "Avoid single-use plastics by carrying reusable shopping bags.",
+      "potentialReduction": 2
+    },
+    {
+      "title": "Unplug Devices",
+      "description": "Turn off appliances and electronics when not in use to save energy.",
+      "potentialReduction": 8
+    },
+    {
+      "title": "Eat Less Meat",
+      "description": "Incorporate more plant-based meals into your diet to reduce emissions from meat production.",
+      "potentialReduction": 25
+    },
+    {
+      "title": "Collect Rainwater",
+      "description": "Use rainwater for watering plants or cleaning outdoor spaces.",
+      "potentialReduction": 12
+    },
+    {
+      "title": "Carpool with Colleagues",
+      "description": "Share rides with colleagues to reduce fuel consumption and emissions.",
+      "potentialReduction": 18
+    },
+    {
+      "title": "Buy Local Produce",
+      "description": "Support local farmers and reduce the carbon footprint of transported goods.",
+      "potentialReduction": 7
+    }
+  ]

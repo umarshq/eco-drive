@@ -1,0 +1,116 @@
+Car 
+
+HTTP client 
+
+import http.client
+
+conn = http.client.HTTPSConnection("carbonfootprint1.p.rapidapi.com")
+
+headers = {
+    'x-rapidapi-key': "89e446de07mshe126055af658ae9p1c01b6jsn3c20ffc69981",
+    'x-rapidapi-host': "carbonfootprint1.p.rapidapi.com"
+}
+
+conn.request("GET", "/CarbonFootprintFromCarTravel?distance=100&vehicle=SmallDieselCar", headers=headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
+--------------------------
+Request 
+
+import requests
+
+url = "https://carbonfootprint1.p.rapidapi.com/CarbonFootprintFromCarTravel"
+
+querystring = {"distance":"100","vehicle":"SmallDieselCar"}
+
+headers = {
+	"x-rapidapi-key": "89e446de07mshe126055af658ae9p1c01b6jsn3c20ffc69981",
+	"x-rapidapi-host": "carbonfootprint1.p.rapidapi.com"
+}
+
+response = requests.get(url, headers=headers, params=querystring)
+
+print(response.json())
+-------------------------------------------
+strings - The type of car, either SmallDieselCar, MediumDieselCar, LargeDieselCar, MediumHybridCar, LargeHybridCar, MediumLPGCar, LargeLPGCar, MediumCNGCar, LargeCNGCar, SmallPetrolVan, LargePetrolVan, SmallDielselVan, MediumDielselVan, LargeDielselVan, LPGVan, CNGVan, SmallPetrolCar, MediumPetrolCar, LargePetrolCar, SmallMotorBike, MediumMotorBike, LargeMotorBike
+------------------------------------------------
+
+Bike 
+
+Http client 
+import http.client
+
+conn = http.client.HTTPSConnection("carbonfootprint1.p.rapidapi.com")
+
+headers = {
+    'x-rapidapi-key': "89e446de07mshe126055af658ae9p1c01b6jsn3c20ffc69981",
+    'x-rapidapi-host': "carbonfootprint1.p.rapidapi.com"
+}
+
+conn.request("GET", "/CarbonFootprintFromMotorBike?type=SmallMotorBike&distance=400", headers=headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
+----------------------------------------------------
+request 
+import requests
+
+url = "https://carbonfootprint1.p.rapidapi.com/CarbonFootprintFromMotorBike"
+
+querystring = {"type":"SmallMotorBike","distance":"400"}
+
+headers = {
+	"x-rapidapi-key": "89e446de07mshe126055af658ae9p1c01b6jsn3c20ffc69981",
+	"x-rapidapi-host": "carbonfootprint1.p.rapidapi.com"
+}
+
+response = requests.get(url, headers=headers, params=querystring)
+
+print(response.json())
+--------------------------------------------------------
+strings - The type of motorbike, can be any of SmallMotorBike, MediumMotorBike, LargeMotorBike
+--------------------------------------------------------
+
+Public Transport 
+
+Http client 
+import http.client
+
+conn = http.client.HTTPSConnection("carbonfootprint1.p.rapidapi.com")
+
+headers = {
+    'x-rapidapi-key': "89e446de07mshe126055af658ae9p1c01b6jsn3c20ffc69981",
+    'x-rapidapi-host': "carbonfootprint1.p.rapidapi.com"
+}
+
+conn.request("GET", "/CarbonFootprintFromPublicTransit?distance=1000&type=Taxi", headers=headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
+--------------------------------------------------------
+request 
+
+import requests
+
+url = "https://carbonfootprint1.p.rapidapi.com/CarbonFootprintFromPublicTransit"
+
+querystring = {"distance":"1000","type":"Taxi"}
+
+headers = {
+	"x-rapidapi-key": "89e446de07mshe126055af658ae9p1c01b6jsn3c20ffc69981",
+	"x-rapidapi-host": "carbonfootprint1.p.rapidapi.com"
+}
+
+response = requests.get(url, headers=headers, params=querystring)
+
+print(response.json())
+------------------------------------------------------
+strings - The type of transportation, one of: Taxi, ClassicBus, EcoBus, Coach, NationalTrain, LightRail, Subway, FerryOnFoot, FerryInCar
+-------------------------------------------------------
